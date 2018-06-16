@@ -1,3 +1,37 @@
+.cl-title {
+  display: block;
+  overflow: hidden;
+  height: 30px;
+  line-height: 30px;
+  text-indent: 20px;
+  font-size: 16px;
+  margin: 0;
+  color: #196097;
+  text-shadow: 1px 1px 0 #bcd1e1, 3px 3px 5px #fff;
+  border-left: 4px solid #026a9e;
+  background: -moz-linear-gradient(top, #bcd1e1 0%, #ffffff 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bcd1e1), color-stop(100%, #ffffff));
+  background: -webkit-linear-gradient(top, #bcd1e1 0%, #ffffff 100%);
+  background: -o-linear-gradient(top, #bcd1e1 0%, #ffffff 100%);
+  background: -ms-linear-gradient(top, #bcd1e1 0%, #ffffff 100%);
+  background: linear-gradient(to bottom, #bcd1e1 0%, #ffffff 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bcd1e1', endColorstr='#ffffff', GradientType=0);
+}
+
+:root .gradient {
+  filter: none;
+}
+
+.cl-content {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  border-top: 1px dotted #cdcaca;
+  border-bottom: 1px dotted #cdcaca;
+  margin: 30px 0 30px 0;
+}
+
 .timeline {
   position: relative;
   width: 100%;
